@@ -1,0 +1,18 @@
+{
+    "name": "simple-unit-test-case",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "express": "^4.16.3",
+        "supertest": "^3.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch '**/*.js' app.js"
+    },
+    "author": "Howell",
+    "license": "ISC"
+}
